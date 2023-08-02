@@ -13,15 +13,11 @@ module.exports = {
     
 	async execute(interaction) {
         const location = interaction.options.getString('location');
-        const forMathLocation = '';
-        try {
-            forMathLocation = location.split(',');
-        } catch (error) {
-            forMathLocation= location.split(' ');
-        }
+        const replade = location.replace(" ", "");
+        const forMathLocation = replade.split(",");
         const lat = forMathLocation[0];
         const long = forMathLocation[1];
-        const linkString =  `https://www.google.com/maps/search/${lat}${long}`;
+        const linkString =  `https://www.google.com/maps/search/${lat},${long}`;
         await interaction.reply(linkString);
       
 	},

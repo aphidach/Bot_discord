@@ -10,7 +10,7 @@ Welcome to the KKU Healthy Life Dockerized API repository. This guide will help 
 ### Prerequisites
 Before you begin, make sure you have the following prerequisites installed on your machine:
 
--Docker 
+-Docker \
 -Docker Compose
 
 ### Getting Started 

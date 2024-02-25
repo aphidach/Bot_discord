@@ -50,7 +50,7 @@ Include the following FormFile payload:
 ```
 key:{image} type:file
 ```
-Replace {image} with the actual image obtained from the client. 
+Replace {image} with the actual image obtained from the client. \
 ***Need bearer token from Step 3***
 
 #### Step 5: Get the profile image
